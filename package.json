@@ -52,7 +52,8 @@
     "build:extension": "yarn build && cp -a ./build/. ./extension/build/ && yarn build:extension-scripts",
     "build:extension-scripts": "cp -a ./extension/src/. ./extension/build/.",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "install:legacy": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "env": {
